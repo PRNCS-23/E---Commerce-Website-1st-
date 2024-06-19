@@ -22,15 +22,35 @@ header .Head .Logo{
 .SelectedItems{
     width: 20%;
     height: 5rem;
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+.Menu{
+    width: 40%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Menu a{
+    text-decoration: none;
+}
+.Search a{
+    text-decoration: none;
+}
+.Search{
+    width: 40%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 .Whishlist{
     width: 40%;
     height: 4rem;
-    border: 1px solid #000000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +65,6 @@ header .Head .Logo{
 .Cart{
     width: 40%;
     height: 4rem;
-    border: 1px solid #000000;
     display: flex;
     justify-content: center;
     align-items: center;
