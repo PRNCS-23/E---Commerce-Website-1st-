@@ -8,12 +8,48 @@ header{
     width: 100vw;
     height: 88px;
     margin: auto;
-    border: 1px black;
     position: fixed;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+}
+header .Head .Logo{
     justify-content: center;
     align-items: center;
     background-color: whitesmoke;
+}
+.SelectedItems{
+    width: 20%;
+    height: 5rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Whishlist{
+    width: 40%;
+    height: 4rem;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Whishlist a{
+    text-decoration: none ;
+}
+.Cart a{
+    text-decoration: none ;
+}
+.Cart{
+    width: 40%;
+    height: 4rem;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .HeroSection{
     background-image: url("heroImg.webp");
@@ -42,6 +78,9 @@ header{
     height: 88rem;
     display: flexbox;
     justify-content: space-evenly;
+}
+.AllProductBox a{
+    text-decoration: none;
 }
 .ProductHeading{
     width: 100%;
