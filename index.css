@@ -135,7 +135,6 @@ header .Head .Logo{
 .ProductImage{
     width: 20rem;
     height: 20rem;
-    border: 1px solid #000000;
     margin-bottom: 5rem;
 }
 @media screen and (min-width: 800){
